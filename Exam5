@@ -1,0 +1,31 @@
+studentno=int(input('enter student no:'))
+studentname=input('enter student name:')
+studentgroup=input('enter student group')
+sub1=int(input('telugu:'))
+sub2=int(input('english:'))
+sub3=int(input('ACCOUNTS:'))
+sub4=int(input('JAVA:'))
+sub5=int(input('os:'))
+sub1>=35
+sub2>=35
+sub3>=27
+sub4>=27
+sub5>=27
+if sub1>35 and sub2>35 and sub3>27 and sub4>27 and sub5>27:
+        print('pass')  
+else:
+        print('fail')
+
+
+output:
+
+
+enter student no:3567
+enter student name:hari
+enter student group mpcs
+telugu:21
+english:13
+ACCOUNTS:18
+JAVA:29
+os:11
+fail

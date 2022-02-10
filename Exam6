@@ -1,0 +1,11 @@
+P=int(input('enter any number:'))
+if (P>0):
+  print(' given number is positive')
+else:
+  print ('given number is negative')
+
+
+output:
+
+enter any number:-65
+ given number is negative 
